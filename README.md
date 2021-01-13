@@ -1,8 +1,14 @@
 # Sublime text 4
 
-## 自定義
 
-```
+  - 基于 Seti_UI 优化支持 Sublime text 4 的 Drak 主题。
+  - 主题方案 Blue
+  - 配色方案 Monokai 
+
+
+## 自定义配置
+
+``` 
 {
   "auto_complete_triggers": [
   {
@@ -64,7 +70,7 @@
   // 自动匹配引号，括号等
   "auto_match_enabled": true,
   // 光标样式
-  // "caret_style": "smooth", // 光标闪动方式 "smooth", "phase", "blink", "wide" and "solid"
+  "caret_style": "smooth", // 光标闪动方式 "smooth", "phase", "blink", "wide" and "solid"
   // "caret_extra_bottom": 1,
   // "caret_extra_top": 1,
   // "caret_extra_width": 1,
@@ -96,7 +102,6 @@
   "Seti_tabs_med": true,
   //翼片高度“SETI＝45”/“SETI_orig=54” 
   "Seti_tabs_big": true,
-  //问题/(223)
   "Seti_tabs_no_min_width": true,
   //选项卡fontsize=12
   "Seti_tab_font_12": true,
@@ -112,21 +117,9 @@
   "Seti_use_system_title_bar": false,
 
   //选项卡保存（“SETI_*_口音”：假)
-  "Seti_yellow_tab": false,
-  "Seti_red_tab": false,
-  "Seti_indigo_tab": false,
-  "Seti_purple_tab": false,
-  "Seti_teal_tab": false,
-  "Seti_lime_tab": false,
   "Seti_seablue_tab": true,
   //选项卡标签
   "Seti_blue_label": true,
-  "Seti_yellow_label": false,
-  "Seti_red_label": false,
-  "Seti_indigo_label": false,
-  "Seti_purple_label": false,
-  "Seti_teal_label": false,
-  "Seti_lime_label": false,
   //SCROLLBAR
 
   //滚动条宽度/高度=6
@@ -134,12 +127,6 @@
   //滚动条宽度/高度=10
   "Seti_SB_big": false,
   "Seti_blue_scrollbar": false,
-  "Seti_yellow_scrollbar": false,
-  "Seti_red_scrollbar": false,
-  "Seti_indigo_scrollbar": false,
-  "Seti_purple_scrollbar": false,
-  "Seti_teal_scrollbar": false,
-  "Seti_lime_scrollbar": false,
   "Seti_seablue_scrollbar": false,
 
   //边栏
@@ -175,19 +162,12 @@
   //标签
   //使文件选择的文本以粗体工具条
   "Seti_bold_slctdfile_labels": false,
-  //问题/(115)
   "Seti_sidebar_font_size_12": false,
-  //问题/(115)
   "Seti_sidebar_font_size_13": false,
-  //问题/(115)
   "Seti_sidebar_font_size_14": false,
-  //问题/(115)
   "Seti_sidebar_font_Ubuntu": false,
-  //问题/(115) 
   "Seti_sidebar_font_Fira": false,
-  //问题/(115)
   "Seti_sidebar_font_Hack": false,
-  //问题/(115)
   "Seti_sidebar_font_Source": false,
   //标题字体尺寸=12
   "Seti_heading_font_12": true,
@@ -216,33 +196,12 @@
   "Seti_panel_nrml": false,
   //折叠箭头来改变黑
   "Seti_dark_fold_button": true,
-
   //映射
-  "Seti_yellow_map": false,
-  "Seti_red_map": false,
-  "Seti_indigo_map": false,
-  "Seti_purple_map": false,
-  "Seti_teal_map": false,
-  "Seti_lime_map": false,
   "Seti_seablue_map": true,
-
   //状态栏
-  "Seti_yellow_statusbar": false,
-  "Seti_red_statusbar": false,
-  "Seti_indigo_statusbar": false,
-  "Seti_purple_statusbar": false,
-  "Seti_teal_statusbar": false,
-  "Seti_lime_statusbar": false,
   "Seti_seablue_statusbar": true,
-
-  //口音的常规选项
-  "Seti_accent": false,
-  "Seti_accent_yellow": false,
-  "Seti_accent_red": false,
-  "Seti_accent_indigo": false,
-  "Seti_accent_purple": false,
-  "Seti_accent_teal": false,
-  "Seti_accent_lime": false,
+  //标题栏的常规选项
+  "Seti_accent": true,
   "Seti_accent_seablue": false,
 
   //关闭GPU
