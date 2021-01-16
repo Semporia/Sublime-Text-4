@@ -8,7 +8,7 @@
 
 ## 自定义配置
 
-``` 
+```js
 {
   "auto_complete_triggers": [
   {
