@@ -5,6 +5,31 @@
   - 主题方案 Blue
   - 配色方案 Monokai 
 
+# 预览
+
+### HTML
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Semporia/Sublime-Text-4/master/HTML.png" align="center">
+  <br><br>
+</p>
+
+### CSS
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Semporia/Sublime-Text-4/master/CSS.png" align="center">
+  <br><br>
+</p>
+
+### JavaScript
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Semporia/Sublime-Text-4/master/JavaScript.png" align="center">
+  <br><br>
+</p>
+
+### Python
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Semporia/Sublime-Text-4/master/Python.png" align="center">
+  <br><br>
+</p>
 
 ## 自定义配置
 
