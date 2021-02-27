@@ -45,8 +45,8 @@
     {
          "class": "title_bar",
          "settings": ["!Seti_use_system_title_bar"],
-         "fg": [255, 255, 255],
-         "bg": [25,25,25] // Sublime Text 标题栏背景颜色
+         "fg": [105, 111, 112],
+         "bg": [255,255,255] // Sublime Text 标题栏背景颜色
     },
 
     // Tab element
@@ -153,7 +153,7 @@
         "fade": true,
         "font.size": 12,
         "font.bold": false, // 标签页文字加粗
-        "fg": [255,255,255], // 标签页文字颜色
+        "fg": [105, 111, 112], // 标签页文字颜色
     },
     {
         "class": "tab_label",
@@ -342,7 +342,7 @@
     // Standard vertical scroll puck
     {
         "class": "puck_control",
-        "layer0.tint":[40,40,40], // 滑动条颜色
+        "layer0.tint":[146, 147, 148], // 滑动条颜色
         "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
         "layer0.inner_margin": 0,
         "content_margin": [3,0],
@@ -546,7 +546,7 @@
     // Status bar container
     {
         "class": "status_bar",
-        "layer0.tint": [25,25,25], // Status bar background
+        "layer0.tint": [255,255,255], // Status bar background
         "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
         "content_margin": [20, 10, 10, 10]
     },
@@ -579,14 +579,14 @@
     {
         "class": "sidebar_container",
         "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "layer0.tint": [25,25,25], // PROJECT 背景颜色
+        "layer0.tint": [255,255,255], // PROJECT 背景颜色
         "content_margin": [0,5,0,0],
         
     },
     // Sidebar tree || entries
     {
         "class": "sidebar_tree",
-        "layer0.tint": [25,25,25], // FLODERS 背景颜色
+        "layer0.tint": [255,255,255], // FLODERS 背景颜色
         "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
         "indent_offset": 0,
         "indent": 20,
@@ -615,7 +615,7 @@
     // Sidebar heading
     {
         "class": "sidebar_heading",
-        "color": [255,255,255], // FOLDERS 文字颜色
+        "color": [105, 111, 112], // FOLDERS 文字颜色
         "font.bold": false,
     },
     {
@@ -644,7 +644,7 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["expandable"]}],
-        "color": [255,255,255],  // FOLDERS 文件夹 标题颜色
+        "color": [105, 111, 112],  // FOLDERS 文件夹 标题颜色
         "font.bold": true,   // 文件夹名称加粗
     },
     {
@@ -668,7 +668,7 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "color": [255,255,255],
+        "color": [0,159,255], // FOLDERS 文件打开 标题  颜色
         "font.bold": false
     },
     {
@@ -1042,7 +1042,7 @@
     {
         "class": "button_control",
         "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "layer0.tint": [77,90,94], //搜索 功能按钮颜色
+        "layer0.tint": [146,147,148], //搜索 功能按钮颜色
         "min_size": [75,0],
         "content_margin": [5,6] // the search panel right side buttons height
     },
@@ -1050,7 +1050,7 @@
     {
         "class": "button_control",
         "attributes": ["hover"],
-        "layer0.tint": [109,128,134] // 搜索 功能按钮悬停颜色
+        "layer0.tint": [105,111,112] // 搜索 功能按钮悬停颜色
     },
     // Pressed button state
     {
@@ -1076,7 +1076,7 @@
     {
         "class": "panel_control",
         "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" },
-        "layer0.tint": [40,40,40], // 搜索面板背景颜色
+        "layer0.tint": [221, 221, 221], // 搜索面板背景颜色
         "content_margin": 0
     },
 
@@ -1086,7 +1086,7 @@
 
     {
         "class": "mini_quick_panel_row",
-        "layer0.tint": [40,40,40], //shift+command+P 背景色
+        "layer0.tint": [105, 111, 112], //shift+command+P 背景色
         "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" }
     },
     {
@@ -1104,7 +1104,7 @@
     {
         "class": "text_line_control",
         "parents": [{"class": "overlay_control"}],
-        "layer0.tint": [40,40,40], // shift+command+P 搜索框背景颜色
+        "layer0.tint": [146, 147, 148], // shift+command+P 搜索框背景颜色
         "content_margin": [10,10,10,10], // text area
         "layer0.opacity": { "target": 1.0, "speed": 0.0, "interpolation": "smoothstep" },
     },
@@ -1128,7 +1128,7 @@
     {
         "class": "quick_panel_row",
         "parents": [{"class": "overlay_control"}],
-        "layer0.tint": [40,40,40], // command + P 背景颜色
+        "layer0.tint": [146, 147, 148], // command + P 背景颜色
         "layer0.opacity": { "target": 1.0, "speed": 10.0, "interpolation": "smoothstep" }
     },
     {
