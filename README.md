@@ -42,10 +42,10 @@
   }],
   "color_inactive_tabs": true,
   // 配色方案
-  "color_scheme": "Packages/Seti_UI/Scheme/Seti Monokai.tmTheme",
-  // "theme": "Seti.sublime-theme",
+  "color_scheme": "Packages/Seti_UI/Scheme/Seti Dark.tmTheme",
+  // "theme": "Seti Light.sublime-theme",
   // 整体界面
-  "theme": "Seti Monokai.sublime-theme",
+  "theme": "Seti Dark.sublime-theme",
   //
   "folder_no_icon": true,
   // On retina Mac
